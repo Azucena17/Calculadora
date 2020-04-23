@@ -1,0 +1,17 @@
+ h2{
+        height: 100%;
+        width: 100%;
+        color:darkturquoise;
+        text-align: center;   
+    }
+table{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+input{
+    text-align: center;
+    height: 75%;
+    width: 90%;
+    
+}
