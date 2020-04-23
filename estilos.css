@@ -8,10 +8,20 @@ table{
     text-align: center;
     height: 300px;
     width: 300px;
+    border-radius: 10px;
+    background-color: rgb(204, 0, 255);
+    color: darkorchid;
+    line-height: 2.5;
+
 }
 input{
     text-align: center;
     height: 75%;
     width: 90%;
-    
+    border-radius: 10px;
+    color: blueviolet;
+    background-color: rgb(0, 194, 220);
+    text-shadow: 1px 1px 1px #000011;
+    border: 0;
+    line-height: 2.5;
 }
