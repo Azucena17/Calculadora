@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculadora</title>
+    <style type="text/scc"></style>
 </head>
 <body>   
     <form name="Calculadora" >
@@ -40,7 +41,7 @@
             <td><input type="button" value="%" onclick="pantalla.value+='%'"></td>
            <td> <input type="button" value="0" onclick="pantalla.value+='0'"></td>
             <td><input type="button" value="." onclick="pantalla.value+='.'"></td>
-            <td><input type="button" value="=" onclick="pantalla.value+='='"></td>
+            <td><input type="button" value="=" onclick="pantalla.value=eval(pantalla.value)"></td>
         </tr>
         </table>
     </form>
